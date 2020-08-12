@@ -36,7 +36,7 @@ module.exports = {
           path: `${__dirname}/src/markdown-pages`,
           name: `markdown-pages`,
         },
-      }
+      },
     },
     {
       resolve: `gatsby-plugin-mdx`,
