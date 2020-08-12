@@ -12,7 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 
 
-const SE0 = () =>{
+const SEO = () =>{
   return(
     <>
     </>
