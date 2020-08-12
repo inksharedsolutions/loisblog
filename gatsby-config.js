@@ -17,7 +17,6 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-feed-mdx`,
-    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -95,7 +94,14 @@ module.exports = {
           include: /\.inline\.svg$/
         }
       }
+    },
+    {
+        resolve: "gatsby-plugin-sass",
+        options: {
+        useResolveUrlLoader: true,
+      },
     }
+
     
   ],
 }
